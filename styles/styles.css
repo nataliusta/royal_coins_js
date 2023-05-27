@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+}
+  
+body {
+display: flex;
+flex-direction: column;
+min-width: 320px;
+margin: 0;
+font-family: "Impact", sans-serif;
+font-style: normal;
+background-color: #ffffff;
+list-style-type: none;
+text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+img {
+height: auto;
+}
+
+.page-header__heading {
+font-family: "Impact", sans-serif;
+font-size: 36px;
+line-height: 44px;
+font-weight: 400;
+background: linear-gradient(180deg, #EBFF00 0%, #FFA800 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper {
+    background: url('/royal_coins_js/img/lobby_background.png') no-repeat;
+}
+
+.page-text {
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+.game-list {
+display: flex;
+justify-content: space-between;
+}
+
+.slot-machine {
+width: 412px;
+height: 240px;
+border: 1px solid black;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.slot {
+width: 100px;
+height: 100px;
+border: 1px solid black;
+background-size: cover;
+}
